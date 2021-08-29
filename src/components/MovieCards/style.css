@@ -19,7 +19,6 @@
   text-align: center;
   margin: 1rem 0 0 1rem;
   color: aliceblue;
-  font-family: 'Raleway', sans-serif;
   font-weight: 800; 
 }
 
@@ -36,6 +35,9 @@
 }
 
 .text-overlay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
   border-radius: 10px;
   text-align: justify;
@@ -57,7 +59,20 @@
   box-shadow: 0 0 2px 2px #f58d6a
 }
 
+.text-overlay:hover span{
+  opacity: 100;
+}
 
+.text-overlay span{
+  font-weight: 800;
+  font-size: 20px;
+  background-color: #F15823;
+}
+
+
+.text-overlay p{
+  background-color: #F15823;
+}
 /*@media (max-width: 400px) {
   .container {
     display: flex;

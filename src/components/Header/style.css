@@ -30,6 +30,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #F15823;
+  box-shadow: 0 0 2px 2px hsl(264, 62%, 27%);
   padding: 1%;
   margin-right: 20px;
   border-radius: 10px;
@@ -47,9 +48,15 @@
   outline: none;
 }
 
+button{
+  background-color: transparent;
+  border: none;
+}
+
 .search-button{
   background-color: transparent;
   border: none;
+  color: #5F01BE;
 }
 
 ::placeholder{

@@ -25,7 +25,10 @@ const MovieCards = () =>{
             {/* o img_300 foi importado do config pois a API não fornece as imagens dos posteres */}
             <div className="image-poster">
                 <img alt={moviesInfo.title} src={`${img_300}/${moviesInfo.poster_path}`}/>
-                <div className="text-overlay">{moviesInfo.overview.substr(0, 250)}
+                <div className="text-overlay">
+                  <span>{moviesInfo.title}</span>
+                  <span>{moviesInfo.vote_average}</span>
+                  <p>{moviesInfo.overview.substr(0, 150)}</p>
                 </div>
             </div>
 

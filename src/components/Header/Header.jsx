@@ -10,7 +10,7 @@ const Header = () =>{
       </div>
       <form className="search-movie__container">
         <input className="search-input" placeholder="Pesquisar filme"/>
-        <button className="search-button"><SearchIcon color="primary" fontSize="small"/></button>
+        <button><SearchIcon className="search-button"  fontSize="small"/></button>
       </form>
     </div>
   )

@@ -1,6 +1,44 @@
-.footer-container{
-  width: 100%;
-  height: 11.5rem;
+.footer{
   background-color: #5F01BE;
-  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 11rem;
+  padding: 2%;
+}
+
+.logo-footer{
+  background-color: transparent;
+}
+
+.logo-footer img{
+  background-color: transparent;
+}
+
+.icon-footer{
+  color: #F15823;
+  background-color: transparent;
+}
+
+.developer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+}
+
+.developer p{
+  background-color: transparent;
+  color: #F15823;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+.developer-social__media{
+  display: flex;
+  background-color: transparent;
+}
+
+.social-media{
+  background-color: transparent;
 }
